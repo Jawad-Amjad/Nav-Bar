@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .nav{
+            background-color: rgba(4, 170, 109, 255);
+            color: white;
+            height: 75px;
+            width: 1600px;
+            display: inline-block;
+            background-attachment:fixed;
+            text-transform: uppercase;
+        }
+
+        .box{
+            margin: 21px 20px;
+            display: inline-block;
+        }
+
+        ul{
+            display: inline-block;
+            float: right;
+        }
+
+        .para{
+            font-size: 25px;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            margin: 10px 15px;
+            padding-right: 30px;
+            cursor: progress;
+        }
+        a:hover{
+            color: #bb01a4;
+        }
+
+        li{
+            display: inline-block;
+            float: right;
+            padding: 27px 20px;
+        } 
+      .none-div{
+        border: 1px solid rgb(198, 193, 193);
+        width: 245px;
+        margin-left: 3px;
+        padding-top: 20px;
+        display: inline-block;
+        margin: 4px;
+        margin-top: 7px;
+      }
+
+      .display-1{
+        font-size: 15px;
+        color: red;
+        background-color: whitesmoke;
+      }
+
+      .image-1{
+        margin-top: 25px;
+        display: inline-block;
+      }
+      .button-1{
+        background-color: rgba(4, 170, 109, 255);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        height: 33px;
+        width: 225px;
+        text-transform: capitalize;
+        letter-spacing: 0.5px;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        font-weight: bold;
+        font-size: 15px;
+      }
+
+      .res{
+        color: black;
+        text-transform: capitalize;
+        background-color: none;
+      }
+    </style>
+</head>
+<body  >
+    <nav class="nav">
+        <div class="box">
+            <strong class="para">
+                navbar
+            </strong>
+        </div>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">service</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </nav>
+   
+    <div class="none-div">
+    <center>  
+        <code class="display-1" align="center">display:none</code>
+        <img src="/Screenshot 2023-02-09 195044.png" alt="" class="image-1">
+        <button class="button-1">remove</button>
+    </center>
+    </div>
+    <div class="none-div">
+        <center>  
+            <code class="display-1">visibility:none</code>
+            <img src="/Screenshot 2023-02-09 195115.png" alt="" class="image-1">
+            <button class="button-1">hide</button>
+        </center>
+        </div>
+        <div class="none-div">
+            <center>  
+                <code class="display-1 res">reset</code>
+                <img src="/Screenshot 2023-02-09 195153.png" alt="" class="image-1">
+                <button class="button-1">reset all</button>
+            </center>
+            </div>
+</body>
+</html>
